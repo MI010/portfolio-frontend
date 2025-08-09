@@ -106,3 +106,29 @@ body {
 }
 
 
+/* Full-width horizontal certification card */
+.cert-card {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+  flex-wrap: wrap;          /* stacks on small screens */
+  width: 100%;
+  max-width: 1200px;        /* align with your other sections */
+  margin-top: 16px;
+}
+
+.cert-left {
+  flex: 1 1 420px;
+  min-width: 320px;
+}
+
+.cert-right {
+  flex: 0 1 300px;
+  min-width: 220px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+/* Optional: make list bullets pop a bit */
+.cert-card li::marker { color: var(--accent); }
