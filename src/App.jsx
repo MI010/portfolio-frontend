@@ -8,7 +8,7 @@ export default function App() {
     photo: "/photo.png",
   };
 
-  const BACKEND = "https://masum-portfolio.onrender.com"; // Change to deployed backend URL
+  const BACKEND = "https://portfolio-backend-d8d8.onrender.com/"; // Change to deployed backend URL
 
   return (
     <main className="hero">
