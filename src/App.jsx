@@ -41,8 +41,12 @@ export default function App() {
                     <h3>Experience</h3>
                     <ul>
                       <li>
-                        <strong>Senior Software Associate L1</strong> — Publicis Sapient
+                        <strong>Senior Associate Platform L1</strong> — Publicis Sapient
                         (July 2025 – Now)
+                      </li>
+                      <li>
+                          <strong>Software Engineer</strong> — Interactive Brokers
+                          (July 2025 – July 2025)
                       </li>
                       <li>
                         <strong>Senior Software Developer</strong> — Tata Digital (Aug
@@ -56,7 +60,7 @@ export default function App() {
             <li>Java, Spring Boot, REST Api, Microservices</li>
             <li>Kafka, Redis, SQL &amp; NoSQL</li>
             <li>Cosmos DB, PostgresDB</li>
-            <li>Azure, Docker</li>
+            <li>Azure, Docker, Jenkins</li>
             <li>Junit, Mockito, JIRA, YouTrack, Checkmarx</li>
           </ul>
         </div>
@@ -161,10 +165,36 @@ export default function App() {
             <li><strong>AZ-900: Microsoft Azure Fundamentals</strong> — Microsoft</li>
           </ul>
         </div>
-        <div className="cert-right">
-          {/* Optional: add small notes or badges/logos here */}
-          <p className="muted">More available on LinkedIn</p>
-        </div>
+                <div className="cert-right">
+                  <p className="muted">
+                    More available on LinkedIn
+                    <a
+                      href={profile.linkedin}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="linkedin-btn"
+                      style={{
+                        marginLeft: "8px",
+                        verticalAlign: "middle",
+                        display: "inline-block"
+                      }}
+                      aria-label="LinkedIn Profile"
+                    >
+                      {/* SVG LinkedIn icon */}
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="18"
+                        height="18"
+                        viewBox="0 0 24 24"
+                        fill="#0A66C2"
+                        style={{ verticalAlign: "middle" }}
+                      >
+                        <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-10h3v10zm-1.5-11.268c-.966 0-1.75-.784-1.75-1.75s.784-1.75 1.75-1.75 1.75.784 1.75 1.75-.784 1.75-1.75 1.75zm13.5 11.268h-3v-5.604c0-1.337-.026-3.063-1.868-3.063-1.868 0-2.154 1.459-2.154 2.967v5.7h-3v-10h2.881v1.367h.041c.401-.761 1.379-1.563 2.838-1.563 3.036 0 3.6 2 3.6 4.594v5.602z"/>
+                      </svg>
+                    </a>
+                  </p>
+                </div>
+
       </div>
     </main>
   );
