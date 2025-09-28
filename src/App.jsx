@@ -163,6 +163,7 @@ export default function App() {
           <h3>Certifications</h3>
           <ul>
             <li><strong>AZ-900: Microsoft Azure Fundamentals</strong> — Microsoft</li>
+            <li><strong>AI-900: Azure AI Fundamentals</strong> — Microsoft</li>
           </ul>
         </div>
                 <div className="cert-right">
